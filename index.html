@@ -1,0 +1,994 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>My vCard Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="My vCard Resume / CV for applying to a Fullstack web developer job" />
+    <meta name="keywords" content="resposnive, retina, jquery, css3, php, ASP.net, Javascript, SQL, React, bootstrap, Web developer, Mobile App developer" />
+    <link rel="shortcut icon" href="images/mine.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main-green.css" type="text/css">
+
+    <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <style>
+        .highest {
+            margin: 0px 6px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            padding: 4px 0px;
+            display: inline-block;
+            cursor:pointer
+        }
+
+        .circle-highest {
+            display: inline-block;
+            margin: 0 auto;
+            float: none;
+            width: 48%;
+            margin-bottom: 30px;
+            text-align: center;
+            margin-left: -4rem;
+            margin-right: 4rem;
+        }
+
+        .special {
+            border: 1px solid #0bceaf;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+
+        .mh-progress.mh-progress-circle {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+  </head>
+
+  <body class="material-template">
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content">
+          <div class="site-title-block mobile-hidden">
+            <div class="site-title">Ahmed <span>Mustafa</span></div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="site-nav">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+              <li>
+                <a class="pt-trigger" href="#home">Home</a><!-- href value = data-id without # of .pt-page. -->
+              </li>
+              <li>
+                <a class="pt-trigger" href="#resume">Resume</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#works">My Work</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#ideas">Brainstorming</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <!-- /Main menu -->
+          </div>
+          <!-- Navigation -->
+        </div>
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Ahmed Mustafa</div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page" data-id="home">
+              <div class="section-inner start-page-content">
+                <div class="page-header">
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div style="border-radius:8px" class="photo">
+                        <img style="border-radius:8px" src="images/mine.png" alt="Beaytiful Pic">
+                      </div>
+                    </div>
+
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <div class="title-block">
+                        <h1>Ahmed Mustafa</h1>
+                        <div class="owl-carousel text-rotation">                                    
+                          <div class="item">
+                            <div class="sp-subtitle">Fullstack-developer</div>
+                          </div>
+                          <div class="item">
+                            <div class="sp-subtitle">Mobile app developer</div>
+                          </div>
+                        </div>
+                      </div>
+
+                        <div class="social-links">
+                            <a target="_blank" href="https://github.com/AhmedMustafa2201"><i class="fa fa-github"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100005655280203"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/ahmed-mustafa-5062641a0"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="page-content">
+                  <div class="row">
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="about-me">
+                        <div class="block-title">
+                          <h3>About <span>Me</span></h3>
+                        </div>
+                        <p>Hello! I’m Ahmed Mustafa. Fullstack-developer on web & mobile apps. I have rich experience in web site design, building and customization. Also I am good at</p>
+                          <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp; word-break: break-all; margin-top: 10px; margin-left: -0.7rem;">
+                              <ul style="list-style-type: none; margin-left: -2.1rem; margin-top: -0.4rem;">
+                                  <li class="highest" style="list-style-type: none;"><span class="special">html</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">css</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">php</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">JQuery</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">React</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">React Native</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">Javascript</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">Express</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">Nodejs</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">ASP.net MVC</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">ASP.net core MVC</span></li>
+                                  <li class="highest" style="list-style-type: none;"><span class="special">web API</span></li>
+                                  <li title="In the near future" class="highest" style="list-style-type: none;"><span class="special" style="background-color:#0bceaf;color:white">Angular</span></li>
+                                  <li title="In the near future" class="highest" style="list-style-type: none;"><span class="special" style="background-color:#0bceaf;color:white">Machine Learning</span></li>
+                              </ul>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <ul class="info-list">
+                        <li><span class="title">Age</span><span class="value">23</span></li>
+                        <li><span class="title">Residence</span><span class="value">EGYPT</span></li>
+                        <li><span class="title">Address</span><span class="value">Minya, EGYPT</span></li>
+                        <li><span class="title">E-mail</span><span class="value"><a href="#"><span>program22b@gmail.com</span></a></span></li>
+                        <li><span class="title">Phone</span><span class="value">+2 01024241560</span></li>
+                        <li><span class="title">Freelance</span><span class="value available">Available</span></li>
+                      </ul>
+                        <div class="download-resume">
+                            <a target="_blank" href="./preview/ahmed_mustafa_resume.pdf" class="btn btn-secondary">Download Resume</a>
+                        </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page" data-id="resume">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Resume</h2>
+                </div>
+                <div class="page-content">
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Education</h3>
+                        </div>
+
+                        <div class="timeline">
+                          <!-- Education 1 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Specialization Course</h4>
+                            <span class="item-period">2019</span>
+                            <span class="item-small">My own Business</span>
+                            <p class="item-description">Make for teacher his content to take a course in asp.net technologies.</p>
+                          </div>
+                          <!-- / Education 1 -->
+
+                          <!-- Education 2 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Specialization Course</h4>
+                            <span class="item-period">2018</span>
+                            <span class="item-small">Udemy, Udacity</span>
+                            <p class="item-description">React & React Native for mobile apps, <br />Data structures and algorithms</p>
+                          </div>
+                          <!-- / Education 2 -->
+
+                          <!-- Education 3 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Specialization Course</h4>
+                            <span class="item-period">2017</span>
+                            <span class="item-small">ITC</span>
+                            <p class="item-description">Course on Backend web development in ITC - Minya. It is based on how to deal with server, DAL, ...etc.</p>
+                          </div>
+                          <!-- / Education 3 -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Experience</h3>
+                        </div>
+
+                        <div class="timeline">
+                          <!-- Experience 1 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Frontend-developer</h4>
+                            <span class="item-period">Dec 2018 - Current</span>
+                            <span class="item-small">My own Business</span>
+                            <p class="item-description">Work on demo projects in React & React Native. Learn <span style="color:#2eca7f">Angular</span></p>
+                          </div>
+                          <!-- / Experience 1 -->
+
+                          <!-- Experience 2 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Fullstack Web Developer</h4>
+                            <span class="item-period">Dec 2017 - Current</span>
+                            <span class="item-small">ITC</span>
+                            <p class="item-description">Work for them after tacking the course for a year on asp.net technologies.</p>
+                          </div>
+                          <!-- / Experience 2 -->
+
+                          <!-- Experience 3 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Programmer</h4>
+                            <span class="item-period">Jan 2016 - Dec 2017</span>
+                            <span class="item-small">My own Business</span>
+                            <p class="item-description">Build Myself on Programming fundamentals "Data structures & Algorithms, OOP, ... " in diffrernt language "C++, C#, JAVA".</p>
+                          </div>
+                          <!-- / Experience 3 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Programming <span>Skills</span></h3>
+                        </div>
+
+                        <div style="padding-left: 1rem; padding-right: 2rem;" class="skills-info">
+                          <h4>ASP .net Technologies</h4>                               
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-1"></div>
+                          </div>
+
+                          <h4>Javascript Frameworks</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-2"></div>
+                          </div>
+
+                          <h4>PHP Frameworks</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div> 
+
+                            <h4>HTML5</h4>
+                            <div class="skill-container">
+                                <div class="skill-percentage skill-4"></div>
+                            </div>
+
+                            <h4>CSS3/LESS/SASS</h4>
+                            <div class="skill-container">
+                                <div class="skill-percentage skill-5"></div>
+                            </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Communication <span>Skills</span></h3>
+                        </div>
+                          <div class="skills-info">
+                              <ul style="list-style-type: none;" class="mh-professional-progress">
+                                  <li class="circle-highest" style="list-style-type: none;">
+                                      <div class="mh-progress mh-progress-circle active" data-progress="85" style="position: relative;"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" stroke-width="5" fill-opacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#2eca7f" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 51.9247;"></path></svg><p class="progressbar-text" style="position: absolute; top: 50%; left: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);">85%</p></div>
+                                      <div class="pr-skill-name">Communication</div>
+                                  </li>
+                                  <li class="circle-highest" style="list-style-type: none;">
+                                      <div class="mh-progress mh-progress-circle active" data-progress="55" style="position: relative;"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" stroke-width="5" fill-opacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#2eca7f" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 134.322;"></path></svg><p class="progressbar-text" style="position: absolute; top: 50%; left: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);">55%</p></div>
+                                      <div class="pr-skill-name">Team Work</div>
+                                  </li>
+                                  <li class="circle-highest" style="list-style-type: none;">
+                                      <div class="mh-progress mh-progress-circle active" data-progress="86" style="position: relative;"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" stroke-width="5" fill-opacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#2eca7f" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 77.9247;"></path></svg><p class="progressbar-text" style="position: absolute; top: 50%; left: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);">75%</p></div>
+                                      <div class="pr-skill-name">Project Management</div>
+                                  </li>
+                                  <li class="circle-highest" style="list-style-type: none;">
+                                      <div class="mh-progress mh-progress-circle active" data-progress="60" style="position: relative;"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" stroke-width="5" fill-opacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#2eca7f" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 38.397;"></path></svg><p class="progressbar-text" style="position: absolute; top: 50%; left: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);">90%</p></div>
+                                      <div class="pr-skill-name">Creativity</div>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Download Resume Button -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <div class="block">
+                        <div class="center download-resume">
+                          <a target="_blank" href="./preview/ahmed_mustafa_resume.pdf" class="btn btn-secondary">Download Resume</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Download Resume Button -->
+
+                </div>
+              </div>
+            </section>
+            <!-- End of Resume Subpage -->
+
+
+            <!-- Works Subpage -->
+            <section class="pt-page" data-id="works">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Works</h2>
+                </div>
+                <div class="page-content">
+                  <!-- My Works -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>My <span>Work</span></h3>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <!--<i class="service-icon fa fa-shopping-cart"></i>-->
+                          <div class="service-image">
+                            <img src="images/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded">
+                          </div>
+                          <h4>Web Developement</h4>
+                          <p>8 hours per day (or more) based on the work.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                              <i style="font-size: 115px;" class="fa fa-mobile"></i>
+                          </div>
+                          <h4>Mobile app development</h4>
+                            <p>8 hours per day (or more) based on the work.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="images/service/creativity_icon.png" alt="Creativity" class="mCS_img_loaded">
+                          </div>
+                          <h4>Project Management</h4>
+                          <p>Manage the headlines of the project.<br />take the ability to raise the creativity and co-working</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- End of My Works -->
+
+                  <!-- Pricing -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3 style="margin-bottom:11px">Pricing</h3>
+                        <p style="color:#2eca7f">Based on the work</p>
+                      </div>
+
+                      <div class="lm-pricing row clearfix">
+                        <div class="lm-package-wrap col-md-4 default-col">
+                          <div class="lm-package">
+                            <div class="lm-heading-row">
+                              <span>Plan 1</span>
+                            </div>
+                            <div class="lm-pricing-row">
+                              <span>$50</span>
+                              <small>per month</small>
+                            </div>
+                            <div class="lm-button-row">
+                              <a href="#" target="_self" class="btn btn-primary">Hire me</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="lm-package-wrap col-md-4 highlight-col ">
+                          <div class="lm-package">
+                            <div class="lm-heading-row">
+                              <span>Plan 2</span>
+                            </div>
+                            <div class="lm-pricing-row">
+                              <span>$120</span>
+                              <small>per month</small>
+                            </div>
+                              <div class="lm-button-row">
+                                  <a href="#" target="_self" class="btn btn-primary">Hire me</a>
+                              </div>
+                          </div>
+                        </div>
+
+                        <div class="lm-package-wrap col-md-4 default-col ">
+                          <div class="lm-package">
+                            <div class="lm-heading-row">
+                              <span>Plan 3</span>
+                            </div>
+                            
+                            <div class="lm-pricing-row">
+                              <span>$250</span>
+                              <small>per month</small>
+                            </div>
+
+                            <div class="lm-button-row">
+                              <a href="#" target="_self" class="btn btn-primary">Hire me</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Pricing -->
+                </div>
+              </div>
+            </section>
+            <!-- End of Work Subpage -->
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page" data-id="portfolio">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Portfolio</h2>
+                </div>
+                <div class="page-content">
+
+                  <!-- Portfolio Content -->
+                  <div class="portfolio-content">
+                                
+                    <!-- Portfolio filter -->
+                    <ul id="portfolio_filters" class="portfolio-filters">
+                      <li class="active">
+                        <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="web">Web</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="mobile">Mobile</a>
+                      </li>
+
+                    </ul>
+                    <!-- End of Portfolio filter -->
+
+                    <!-- Portfolio Grid -->
+                    <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                      <!-- Portfolio Item 1 -->
+                      <figure class="item" data-groups='["all", "web"]'>
+                        <a href="#">
+                          <img src="images/portfolio/1.jpg" alt="">
+                          <div>
+                            <h5 class="name">Topsy Turvy</h5>
+                            <small>Web</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 1 -->
+
+                      <!-- Portfolio Item 2 -->
+                      <figure class="item" data-groups='["all", "web"]'>
+                        <a href="#">
+                          <img src="images/portfolio/2.jpg" alt="">
+                          <div>
+                            <h5 class="name">Landon hotel</h5>
+                            <small>mobile</small>
+                            <i class="fa fa-mobile"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 2 -->
+
+                      <!-- Portfolio Item 3 -->
+                      <figure class="item" data-groups='["all","web"]'>
+                        <a href="#">
+                          <img src="images/portfolio/3.jpg" alt="">
+                          <div>
+                            <h5 class="name">Gighub</h5>
+                            <small>Web</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 3 -->
+
+                      <!-- Portfolio Item 4 -->
+                      <figure class="item" data-groups='["all", "web"]'>
+                        <a href="#">
+                          <img src="images/portfolio/4.jpg" alt="">
+                          <div>
+                            <h5 class="name">My Shopping</h5>
+                            <small>Web</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 4 -->
+
+                      <!-- Portfolio Item 5 -->
+                      <figure class="item" data-groups='["all", "web"]'>
+                        <a href="#">
+                          <img src="images/portfolio/5.jpg" alt="">
+                          <div>
+                            <h5 class="name">Chathub</h5>
+                            <small>Web</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 5 -->
+
+                      <!-- Portfolio Item 6 -->
+                      <figure class="item" data-groups='["all", "web"]'>
+                        <a href="#">
+                          <img src="images/portfolio/6.jpg" alt="">
+                          <div>
+                            <h5 class="name">University Buildings</h5>
+                            <small>Web</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 6 -->
+
+                      <!-- Portfolio Item 7 -->
+                      <figure class="item" data-groups='["all", "web"]'>
+                        <a href="#">
+                          <img src="images/portfolio/7.jpg" alt="">
+                          <div>
+                            <h5 class="name">Signal-R</h5>
+                            <small>Web</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 7 -->
+
+                      <!-- Portfolio Item 8 -->
+                      <figure class="item" data-groups='["all",  "web"]'>
+                        <a href="#">
+                          <img src="images/portfolio/8.jpg" alt="">
+                          <div>
+                            <h5 class="name">CRM</h5>
+                            <small>Web</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 8 -->
+
+                      <!-- Portfolio Item 9 -->
+                      <figure class="item" data-groups='["all","web"]'>
+                        <a href="#">
+                          <img src="images/portfolio/9.jpg" alt="">
+                          <div>
+                            <h5 class="name">Mini E-commerce</h5>
+                            <small>Web</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 9 -->
+
+                      <!-- Portfolio Item 10 -->
+                      <figure class="item" data-groups='["all", "mobile"]'>
+                        <a href="#">
+                          <img src="images/portfolio/10.jpg" alt="">
+                          <div>
+                            <h5 class="name">Contacts</h5>
+                            <small>mobile</small>
+                            <i class="fa fa-mobile"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 10 -->
+
+                      <!-- Portfolio Item 11 -->
+                      <figure class="item" data-groups='["all", "mobile"]'>
+                        <a href="#">
+                          <img src="images/portfolio/11.jpg" alt="">
+                          <div>
+                            <h5 class="name">Chatroom (Chatkit)</h5>
+                            <small>mobile</small>
+                            <i class="fa fa-mobile"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 11 -->
+
+                      <!-- Portfolio Item 12 -->
+                      <figure class="item" data-groups='["all","mobile"]'>
+                        <a href="#">
+                          <img src="images/portfolio/12.jpg" alt="">
+                          <div>
+                            <h5 class="name">Demo Instagram</h5>
+                            <small>mobile</small>
+                            <i class="fa fa-mobile"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 12 -->
+                    </div>
+                    <!-- /Portfolio Grid -->
+
+                  </div>
+                  <!-- /Portfolio Content -->
+                </div>
+              </div>
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- ideas Subpage -->
+            <section class="pt-page" data-id="ideas">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Brainstorming</h2>
+                </div>
+                <div class="page-content">
+
+                  <!-- Blog Posts Grid -->
+                  <div class="blog-masonry two-columns">
+                    <!-- Blog Post 1 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="#">
+                            <img class="post-image img-responsive" src="images/blog/1.jpg" alt="1" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">6</span><span class="month">Dec</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">Tech</a></li>
+                          </ul>
+                          <a href="#"><h4 class="blog-item-title">What`s new technologies in Chat?</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 1 -->
+
+                    <!-- Blog Post 2 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="#">
+                            <img style="height: 251px;" class="post-image img-responsive" src="images/blog/2.jpg" alt="2" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">3</span><span class="month">Nov</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">Web Design</a></li>
+                          </ul>
+                          <a href="#"><h4 class="blog-item-title">One Framework, Every Device</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 2 -->
+
+                    <!-- Blog Post 3 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="#">
+                            <img class="post-image img-responsive" src="images/blog/3.jpg" alt="3" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">12</span><span class="month">Oct</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">Global</a></li>
+                          </ul>
+                          <a href="#"><h4 class="blog-item-title">Should developer be an Excellent code-typing?</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 3 -->
+
+                    <!-- Blog Post 4 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="#">
+                            <img class="post-image img-responsive" src="images/blog/4.jpg" alt="4" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">18</span><span class="month">Aug</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">CSS</a></li>
+                          </ul>
+                          <a href="#"><h4 class="blog-item-title">An Introduction To PostCSS</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 4 -->
+
+                    <!-- Blog Post 5 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="#">
+                            <img class="post-image img-responsive" src="images/blog/5.jpg" alt="5" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">2</span><span class="month">Jul</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">                        
+                          <ul class="category">
+                            <li><a href="#">CSS3</a></li>
+                          </ul>
+                          <a href="#"><h4 class="blog-item-title">Original and Innovative Web Layouts</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 5 -->
+
+                    <!-- Blog Post 6 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="#">
+                            <img class="post-image img-responsive" src="images/blog/6.jpg" alt="6" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">8</span><span class="month">May</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">Tech</a></li>
+                          </ul>
+                          <a href="#"><h4 class="blog-item-title">Pusher <span style="color:#2eca7f">vs.</span> another technologies.</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 6 -->
+
+                    <!-- Blog Post 7 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div style="background-color: aliceblue;" class="media-block">
+                          <a href="#">
+                            <i style="font-size: 260px;" class="fa fa-mobile"></i>
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">7</span><span class="month">Apr</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">Mobile</a></li>
+                          </ul>
+                          <a href="#"><h4 class="blog-item-title">Navigation for Mega-Screens in react</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 7 -->
+
+                    <!-- Blog Post 8 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="#">
+                            <img class="post-image img-responsive" src="images/blog/8.jpg" alt="8" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">21</span><span class="month">Mar</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">Backend</a></li>
+                          </ul>
+                          <a href="#"><h4 class="blog-item-title">API Challenge Accepted: AJAX</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 8 -->
+                  </div>
+                  <!-- Blog Posts Grid -->
+                </div>
+              </div>
+            </section>
+            <!-- /ideas Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page" data-id="contact">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Contact</h2>
+                </div>
+                <div class="page-content">
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <div class="block-title">
+                        <h3 style="margin-bottom:0px">Get in <span>Touch</span></h3>
+                      </div>
+                        <div style="margin-bottom:1.4rem" class="contact-info-block">
+                            <div class="social-links">
+                                <a target="_blank" style="margin-right:1rem" href="https://github.com/AhmedMustafa2201"><i class="fa fa-github"></i></a>
+                                <a style="margin-right:1rem" href="https://www.facebook.com/profile.php?id=100005655280203"><i class="fa fa-facebook"></i></a>
+                                <a style="margin-right:1rem" href="#"><i class="fa fa-instagram"></i></a>
+                                <a target="_blank" style="margin-right:1rem" href="https://www.linkedin.com/in/ahmed-mustafa-5062641a0"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>Minya, Egypt</h5>
+                        </div>
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5><a href="#">program22b@gmail.com</a></h5>
+                        </div>
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>+2 01024241560</h5>
+                        </div>
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-check"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>Freelance Available</h5>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6">
+                      <div class="block-title">
+                        <h3>Contact <span>Form</span></h3>
+                          <h4><span style="color:#2eca7f">Note: </span>This form does not activated yet.</h4>
+                      </div>
+                      <form id="contact-form" method="post" action="#">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa fa-user"></i>
+                            <label>Full Name</label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder required="required" data-error="Name is required.">
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa fa-envelope"></i>
+                            <label>Email Address</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder required="required" data-error="Valid email is required.">
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa fa-comment"></i>
+                            <label>Message for Me</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
+
+                          <input type="submit" class="button btn-send" value="Send message">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+    <footer>
+      <div class="copyrights">© 2019 All rights reserved.</div>
+    </footer>
+
+    <script type="text/javascript" src="js/pages-switcher.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/validator.js"></script>
+    <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
